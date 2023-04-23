@@ -21,13 +21,15 @@
 ## Pros:
 - **Modular**: Each feature or module is self-contained and can be developed, tested, and deployed independently, which can speed up development and reduce risk.
 
-- **Focused**:  The code for each feature or module is grouped together, making it easier to understand and modify without affecting other parts of the application.
+- **Focused**: The code for each feature or module is grouped together, making it easier to understand and modify without affecting other parts of the application.
 
 - **Team Collaboration**: The features architecture allows teams to work on different features in parallel, without interfering with each other's work. This makes it easier to collaborate and develop features more efficiently.
 
 - **Reusable**: Features or modules can be reused in different parts of the application or in other applications, which can save time and effort
 
 - **Scalable**: The architecture can accommodate new features and modules, allowing the application to scale up as needed.
+
+- **Testability**: Since each feature is organized into its own module or folder, it becomes easier to isolate and test that feature independently from the rest of the application.
 
 ## Cons:
 - **Initial setup**: Setting up a feature architecture requires some upfront work, including deciding on the features and their dependencies.
